@@ -69,7 +69,7 @@ namespace AssetRipper.Import.Configuration
 
 		public virtual void ResetToDefaultValues()
 		{
-			ScriptContentLevel = ScriptContentLevel.Level2;
+			ScriptContentLevel = ScriptContentLevel.Level1;
 			StreamingAssetsMode = StreamingAssetsMode.Extract;
 			DefaultVersion = default;
 			ExportRootPath = ExecutingDirectory.Combine("Ripped");
